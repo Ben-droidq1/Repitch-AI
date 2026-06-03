@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "vite": "^8.0.16",
+    "youtube-transcript": "^1.3.1"
+  },
+  "scripts": {
+    "server": "node server.js",
+    "dev": "node dev.js",
+    "dev:client": "cd vite-project && npm run dev",
+    "build": "cd vite-project && npm run build"
+  }
+}
